@@ -5,8 +5,8 @@ export class Todo {
         const tempTodo = new Todo(tarea);
 
         tempTodo.id         = id;
-        tempTodo.completado = id;
-        tempTodo.creado     = id;
+        tempTodo.completado = completado;
+        tempTodo.creado     = creado;
 
         return tempTodo;
     }

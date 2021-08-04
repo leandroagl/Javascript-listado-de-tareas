@@ -51,7 +51,7 @@ export class TodoList {
             : []; 
 
         // Permite barrer cada uno de los elementos dentro de un arreglo y retorna un nuevo arreglo con cada uno de sus objetos mutado
-        this.todos = this.todos.map(obj => Todo.fromJson(obj));
+        this.todos = this.todos.map(Todo.fromJson);
     }
 }
 
